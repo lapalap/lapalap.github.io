@@ -1,3 +1,7 @@
+---
+pagination:
+  enabled: true
+---
 <!doctype html>
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
@@ -20,7 +24,7 @@ function scrollMSG() {
 document.title = msg.substring(pos, msg.length) + msg.substring(0, pos);
 pos++;
 if (pos >  msg.length) pos = 0
-window.setTimeout("scrollMSG()",200);
+window.setTimeout("scrollMSG()",20);
 }
 scrollMSG();
     </SCRIPT>
@@ -29,7 +33,7 @@ scrollMSG();
   <body>
     <div class="wrapper">
       <header>
-        <h1>{{ site.title | default: site.github.repository_name }}</h1>
+        <h6>{{ site.title | default: site.github.repository_name }}</h6>
         <p>{{ site.description | default: site.github.project_tagline }}</p>
 
         {% if site.github.is_project_page %}
@@ -50,7 +54,10 @@ scrollMSG();
         {% if site.github.is_project_page %}
         <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
         {% endif %}
-        <p><small>Hosted on GitHub Pages</small></p>
+        <p><small>Hosted on GitHub Pages
+<br>
+	Subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a>
+</small></p>
       </footer>
     </div>
     <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
