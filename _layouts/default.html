@@ -33,7 +33,7 @@ scrollMSG();
   <body>
     <div class="wrapper">
       <header>
-        <h6>{{ site.title | default: site.github.repository_name }}</h6>
+        <h6> <a href="https://lapalap.github.io" class="nav-link">{{ site.title | default: site.github.repository_name }}</a></h6>
         <p>{{ site.description | default: site.github.project_tagline }}</p>
 
         {% if site.github.is_project_page %}

@@ -11,11 +11,11 @@ pagination:
 
 <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
+  <!-- <h1 class="page-heading">Recent posts:</h1> -->
   
   {{ content }}
 
-  <ul class="post-list">
+  <h1 class="post-list">
     <!-- 
         Here is the main paginator logic called.
         All calls to site.posts should be replaced by paginator.posts 
@@ -25,7 +25,7 @@ pagination:
 
 
         <h5>
-          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+          <a class="nav-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
         </h5>
 	
         	<span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
@@ -35,14 +35,18 @@ pagination:
   	{% endif %}
 <p>
     {{ post.content | strip_html | truncate: 350 }} <a href="{{ site.github.url }}{{ post.url }}">Read more</a>
+
+<!--
     <span class="post-date" style="margin-top:3px"><i class="fa fa-calendar" aria-hidden="true"></i> {{ post.date | date_to_string }} - <i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</span>
+
+-->
   </p>
 
      
 
 
     {% endfor %}
-  </ul>
+  </h1>
   
   <!-- 
     Showing buttons to move to the next and to the previous list of posts (pager buttons).
