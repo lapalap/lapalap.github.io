@@ -1,25 +1,30 @@
 <!DOCTYPE html>
-
-<!--
-  portfolYOU Jekyll theme by Youssef Raafat
-  Free for personal and commercial use under the MIT license
-  https://github.com/YoussefRaafatNasry/portfolYOU
--->
-
-<html lang="en" class="h-100">
+<html lang="en">
 
 {% include head.html %}
 
-<body class="d-flex flex-column h-100">
+<body>
 
-  <main class="flex-shrink-0 container mt-5">
-  {% include navbar.html %}
-  {{ content }}
+  {% if site.google-analytics %}
+    {% include google-analytics.html %}
+  {% endif %}
+
+  {% include header.html %}
+
+  <!-- begin content -->
+  <main class="content" aria-label="Content">
+    {{ content }}
   </main>
+  <!-- end content -->
 
   {% include footer.html %}
-  {% include scripts.html %}
 
+  <!-- begin js -->
+  <script src="{{ site.baseurl }}/assets/js/vendors/jquery-3.3.1.min.js"></script>
+  <script src="{{ site.baseurl }}/assets/js/vendors/aos.js"></script>
+  <script src="{{ site.baseurl }}/assets/js/vendors/jquery.fitvids.js"></script>
+  <script src="{{ site.baseurl }}/assets/js/common.js"></script>
+  <!-- end js -->
 </body>
 
 </html>
