@@ -1,78 +1,25 @@
----
-pagination:
-  enabled: true
----
-<!doctype html>
-<html lang="{{ site.lang | default: "en-US" }}">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+<!DOCTYPE html>
 
-{% seo %}
+<!--
+  portfolYOU Jekyll theme by Youssef Raafat
+  Free for personal and commercial use under the MIT license
+  https://github.com/YoussefRaafatNasry/portfolYOU
+-->
 
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    <meta name="viewport" content="width=device-width">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+<html lang="en" class="h-100">
 
-<SCRIPT language=javascript>
-msg = "hehehehehehehehehehehehehehehehehe";
+{% include head.html %}
 
-msg = "" + msg;pos = 0;
-function scrollMSG() {
-document.title = msg.substring(pos, msg.length) + msg.substring(0, pos);
-pos++;
-if (pos >  msg.length) pos = 0
-window.setTimeout("scrollMSG()",20);
-}
-scrollMSG();
-    </SCRIPT>
+<body class="d-flex flex-column h-100">
 
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h6> <a href="https://lapalap.github.io" class="nav-link">{{ site.title | default: site.github.repository_name }}</a></h6>
-        <p>{{ site.description | default: site.github.project_tagline }}</p>
+  <main class="flex-shrink-0 container mt-5">
+  {% include navbar.html %}
+  {{ content }}
+  </main>
 
-        {% if site.github.is_project_page %}
-          <p class="view"><a href="{{ site.github.repository_url }}"> GitHub Profile <small>{{ github_name }}</small></a></p>
-        {% endif %}
+  {% include footer.html %}
+  {% include scripts.html %}
 
+</body>
 
-        {% if site.github.is_user_page %}
-          <p class="view"><a href="{{ site.github.owner_url }}">GitHub Profile</a></p>
-        {% endif %}
-      </header>
-      <section>
-
-      {{ content }}
-
-      </section>
-      <footer>
-        {% if site.github.is_project_page %}
-        <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
-        {% endif %}
-        <p><small>Hosted on GitHub Pages
-<br>
-	Subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a>
-</small></p>
-      </footer>
-    </div>
-    <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
-
-
-  {% if site.google_analytics %}
-    <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-        ga('create', '{{ site.google_analytics }}', 'auto');
-        ga('send', 'pageview');
-    </script>
-  {% endif %}
-  </body>
 </html>
