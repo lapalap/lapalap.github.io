@@ -42,6 +42,7 @@ layout: default
   {% else %}
     {{ site.data.authors.primary.name }}
   {% endif %}
+<<<<<<< HEAD
 
 
 <section class="disqus">
@@ -98,6 +99,8 @@ layout: default
               <svg enable-background="new 0 0 56.693 56.693" height="56.693" viewBox="0 0 56.693 56.693" width="56.693" xmlns="http://www.w3.org/2000/svg"><path d="m52.837 15.065c-1.811.805-3.76 1.348-5.805 1.591 2.088-1.25 3.689-3.23 4.444-5.592-1.953 1.159-4.115 2-6.418 2.454-1.843-1.964-4.47-3.192-7.377-3.192-5.581 0-10.106 4.525-10.106 10.107 0 .791.089 1.562.262 2.303-8.4-.422-15.848-4.445-20.833-10.56-.87 1.492-1.368 3.228-1.368 5.082 0 3.506 1.784 6.6 4.496 8.412-1.656-.053-3.215-.508-4.578-1.265-.001.042-.001.085-.001.128 0 4.896 3.484 8.98 8.108 9.91-.848.23-1.741.354-2.663.354-.652 0-1.285-.063-1.902-.182 1.287 4.015 5.019 6.938 9.441 7.019-3.459 2.711-7.816 4.327-12.552 4.327-.815 0-1.62-.048-2.411-.142 4.474 2.869 9.786 4.541 15.493 4.541 18.591 0 28.756-15.4 28.756-28.756 0-.438-.009-.875-.028-1.309 1.974-1.422 3.688-3.203 5.042-5.23z"/></svg>
             </a>
         </li>
+=======
+>>>>>>> parent of 3e5cf6f... Major changes
 
         <li class="share__item">
           <a class="share__link share__pinterest" href="http://pinterest.com/pin/create/button/?url={{ site.url }}{{ page.url }}&amp;media={{ site.url }}{{ site.baseurl }}{{ page.image }}&amp;description={{ page.title | uri_escape }}"
@@ -108,6 +111,7 @@ layout: default
       </ul>
     </div>
 
+<<<<<<< HEAD
     <div class="post__navigation">
       {% if page.previous.url %}
       <a class="prev" href="{{site.baseurl}}{{page.previous.url}}">
@@ -137,6 +141,33 @@ layout: default
     {% if site.disqus-identifier %}
       {% include show-disqus.html %}
     {% endif %}
+=======
+<section class="disqus">
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+    var disqus_shortname = "{{ site.data.settings.disqus.disqus_shortname }}";
+    var disqus_identifier = "{{ page.url }}";
+    (function() {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</section>
+
+
+<div class="post-date">Feel free to share!</div>
+  <div class="sharing-icons">
+    <a href="https://twitter.com/intent/tweet?text={{ page.title }}&amp;url={{ site.github.url }}{{ page.url }}&amp;via={{ site.data.authors.primary.twitter }}" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+    <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.github.url }}{{ page.url }}&amp;title={{ page.title }}" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+    <a href="https://plus.google.com/share?url={{ site.github.url }}{{ page.url }}" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+  </div>
+</div>
+
+</span>
+>>>>>>> parent of 3e5cf6f... Major changes
 
   </article>
   <!-- end post -->
