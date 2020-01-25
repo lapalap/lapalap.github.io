@@ -5,9 +5,42 @@
 
 <body>
 
+<<<<<<< HEAD
   {% if site.google-analytics %}
     {% include google-analytics.html %}
   {% endif %}
+=======
+<SCRIPT language=javascript>
+msg = "hehehehehehehehehehehehehehehehehe";
+
+msg = "" + msg;pos = 0;
+function scrollMSG() {
+document.title = msg.substring(pos, msg.length) + msg.substring(0, pos);
+pos++;
+if (pos >  msg.length) pos = 0
+window.setTimeout("scrollMSG()",20);
+}
+scrollMSG();
+    </SCRIPT>
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h6>{{ site.title | default: site.github.repository_name }}</h6>
+        <p>{{ site.description | default: site.github.project_tagline }}</p>
+
+        {% if site.github.is_project_page %}
+          <p class="view"><a href="{{ site.github.repository_url }}"> GitHub Profile <small>{{ github_name }}</small></a></p>
+        {% endif %}
+
+
+        {% if site.github.is_user_page %}
+          <p class="view"><a href="{{ site.github.owner_url }}">GitHub Profile</a></p>
+        {% endif %}
+      </header>
+      <section>
+>>>>>>> parent of 3e5cf6f... Major changes
 
   {% include header.html %}
 
