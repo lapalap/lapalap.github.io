@@ -5,7 +5,7 @@ tagline:  Personal GitHub blog
 
 # Change to true for Disqus comments
 disqus:
-  comments: true
+  comments: false
   disqus_shortname: 'lapalap-github-io'
 
 menu:
