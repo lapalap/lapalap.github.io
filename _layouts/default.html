@@ -33,7 +33,7 @@ scrollMSG();
   <body>
     <div class="wrapper">
       <header>
-        <h6> <a>{{ site.title | default: site.github.repository_name }}</a></h6>
+        <h6> {{ site.title | default: site.github.repository_name }}</h6>
         <h4><p>{{ site.description | default: site.github.project_tagline }}</p></h4>
           
         <p class="view"><a href="{{ site.github.owner_url }}">LinkedIn</a></p>
