@@ -36,11 +36,11 @@ scrollMSG();
         <h6> {{ site.title | default: site.github.repository_name }}</h6>
         <h4><p>{{ site.description | default: site.github.project_tagline }}</p></h4>
           
-        <p class="view"><a href="{{ site.github.owner_url }}">LinkedIn</a></p>
-        <p class="view"><a href="{{ site.github.owner_url }}">Google Scholar</a></p>
-        <p class="view"><a href="{{ site.github.owner_url }}">Substack</a></p>
-        <p class="view"><a href="{{ site.github.owner_url }}">GitHub Profile</a></p>
-        <p class="view"><a>{{site.email}}</a></p>
+        <p><a href="{{ site.linkedin }}">LinkedIn</a></p>
+        <p><a href="{{ site.scholar }}">Google Scholar</a></p>
+        <p><a href="{{ site.substack }}">Substack</a></p>
+        <p><a href="{{ site.github.owner_url }}">GitHub Profile</a></p>
+        <p><a>{{ site.email }}</a></p>
       </header>
       <section>
 
