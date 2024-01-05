@@ -33,17 +33,14 @@ scrollMSG();
   <body>
     <div class="wrapper">
       <header>
-        <h6> <a href="https://lapalap.github.io" class="nav-link">{{ site.title | default: site.github.repository_name }}</a></h6>
-        <p>{{ site.description | default: site.github.project_tagline }}</p>
-
-        {% if site.github.is_project_page %}
-          <p class="view"><a href="{{ site.github.repository_url }}"> GitHub Profile <small>{{ github_name }}</small></a></p>
-        {% endif %}
-
-
-        {% if site.github.is_user_page %}
-          <p class="view"><a href="{{ site.github.owner_url }}">GitHub Profile</a></p>
-        {% endif %}
+        <h6> <a>{{ site.title | default: site.github.repository_name }}</a></h6>
+        <h4><p>{{ site.description | default: site.github.project_tagline }}</p></h4>
+          
+        <p class="view"><a href="{{ site.github.owner_url }}">LinkedIn</a></p>
+        <p class="view"><a href="{{ site.github.owner_url }}">Google Scholar</a></p>
+        <p class="view"><a href="{{ site.github.owner_url }}">Substack</a></p>
+        <p class="view"><a href="{{ site.github.owner_url }}">GitHub Profile</a></p>
+        <p class="view"><a>{{site.email}}</a></p>
       </header>
       <section>
 
