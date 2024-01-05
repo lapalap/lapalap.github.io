@@ -1,12 +1,11 @@
 # Site Settings
 
 paginate:            5
-
 highlighter:         rouge
 
 
 title: Kirill Bykov
-description: Personal GitHub blog
+description: Machine Learning PhD Student
 show_downloads: true
 google_analytics:
 theme: jekyll-theme-minimal
@@ -17,8 +16,8 @@ gems:
   - jekyll-paginate
 
 # Customise feed settings (uncommenting following two fields to customise feed title and description)
-#title:		     "Lagrange-Custom"
-#description:	     "a minimalist Jekyll theme-Custom"
+#title:		     "Kirill Bykov"
+#description:	     "Machine Learning PhD Student"
 
 # RSS 2.0 can be used instead of Atom by uncommenting following two lines
 #feed:
