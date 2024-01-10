@@ -7,7 +7,7 @@ layout: default
 I am a Machine Learning PhD student at the TU Berlin and ATB Potsdam, working on <code>Explainable AI</code> under the supervision of <a href="https://scholar.google.de/citations?user=YwdAiikAAAAJ&hl=en"><code>Marina Höhne</code></a> and <a href="https://scholar.google.com/citations?user=jplQac8AAAAJ&hl=en"><code>Klaus-Robert Müller</code></a>. I am working at <a href="https://x.com/umi_lab_ai"><code>Understandable Machine Intelligence lab</code></a> and I am part of <a href="https://www.bifold.berlin"><code>BIFOLD</code></a> graduate school. My work is mainly focused on global Explainable AI methods – I develop methods so that we can comprehend what abstractions and concepts Deep Neural Networks learn, what is the purpose and function of individual neurons within the networks, as well as how these neurons pass information to each other, forming more complex circuits.
 
 # News
-
+*   10.01.24 🎙️ Invited talk at [BLISS Berlin](https://www.linkedin.com/company/bliss-berlin/?originalSubdomain=de) about our **NeurIPS 2023** paper "<ins>*Labeling Neural Representations with Inverse Recognition*</ins>"
 *   14.12.23 📄 "<ins>*Labeling Neural Representations with Inverse Recognition*</ins>" was presented at **NeurIPS 2023**
 *   14.11.23 📄 "<ins>*Visalizing the Diversity of Representations Learned by Bayesian Neural Networks*</ins>" was accepted at **TMLR**
 *   30.09.23 🎙️ Presented "<ins>*Mark My Words: Dangers of Watermarked Images in ImageNet*</ins>" at XI-ML workshop at **ECAI 2023** in Krakau, Poland
