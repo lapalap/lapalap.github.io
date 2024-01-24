@@ -54,3 +54,14 @@ I am a Machine Learning PhD student at the TU Berlin and ATB Potsdam, working on
 
 > ![noisegrad-publish.svg](https://raw.githubusercontent.com/lapalap/lapalap.github.io/1c9db871eca0effe2bce774553d4629519dd2379/_data/papers/noisegrad-publish.svg)
  [`Paper`](https://ojs.aaai.org/index.php/AAAI/article/view/20561) | [`Code`](https://github.com/understandable-machine-intelligence-lab/NoiseGrad) | [`Twitter Thread`](https://x.com/anna_hedstroem/status/1406922210279886849?s=46&t=_l2dvmNwfXVT_BhNkrvo2w) | [`Newspaper Article (DE)`](https://archiv.pressestelle.tu-berlin.de/tui/22feb/#6)
+
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FTLYMY1SPL"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-FTLYMY1SPL');
+</script>
