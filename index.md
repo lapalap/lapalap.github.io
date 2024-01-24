@@ -8,6 +8,8 @@ I am a Machine Learning PhD student at the TU Berlin and ATB Potsdam, working on
 
 # News
 *   23.01.24 📄 New preprint --- ["<ins>*Manipulating Feature Visualizations with Gradient Slingshots*</ins>"](https://arxiv.org/abs/2401.06122)
+*   10.01.24 🗓️ Our "Concept-Based global Explainability" track was accepted to [XAI-2024](https://xaiworldconference.com/2024/)
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7151149072815456256" height="567" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
 *   10.01.24 🎙️ Invited talk at [BLISS Berlin](https://www.linkedin.com/company/bliss-berlin/?originalSubdomain=de) about our **NeurIPS 2023** paper "<ins>*Labeling Neural Representations with Inverse Recognition*</ins>"
 *   14.12.23 📄 "<ins>*Labeling Neural Representations with Inverse Recognition*</ins>" was presented at **NeurIPS 2023**
 *   14.11.23 📄 "<ins>*Visalizing the Diversity of Representations Learned by Bayesian Neural Networks*</ins>" was accepted at **TMLR**
