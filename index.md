@@ -33,7 +33,7 @@ I am a Machine Learning PhD student at the TU Berlin and ATB Potsdam, working on
 *   01.01.2021 🐣 Start of the PhD
 
 # Research
-> ![manipulating-publish.svg](https://raw.githubusercontent.com/lapalap/lapalap.github.io/1c9db871eca0effe2bce774553d4629519dd2379/_data/papers/manipulating-publish.svg)
+> ![manipulating-publish.svg](https://raw.githubusercontent.com/lapalap/lapalap.github.io/d86290d0d09812b1850ae6623b970e7de7f23877/_data/papers/manipulating-publish.svg)
  [`Paper`](https://arxiv.org/abs/2401.06122) | [`Code`](https://github.com/dilyabareeva/grad-slingshot) | [`Twitter Thread`](https://x.com/di_lya/status/1749553403313672451?s=46&t=_l2dvmNwfXVT_BhNkrvo2w)
 
 > ![invert-publish.svg](https://raw.githubusercontent.com/lapalap/lapalap.github.io/1c9db871eca0effe2bce774553d4629519dd2379/_data/papers/invert-publish.svg)
