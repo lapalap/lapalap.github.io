@@ -33,21 +33,23 @@ I am a Machine Learning PhD student at the TU Berlin and ATB Potsdam, working on
 *   01.01.2021 🐣 Start of the PhD
 
 # Research
+> ![manipulating-publish.svg](https://raw.githubusercontent.com/lapalap/lapalap.github.io/1c9db871eca0effe2bce774553d4629519dd2379/_data/papers/manipulating-publish.svg)
+ [`Paper`](https://arxiv.org/abs/2401.06122) | [`Code`](https://github.com/dilyabareeva/grad-slingshot) | [`Twitter Thread`](https://x.com/di_lya/status/1749553403313672451?s=46&t=_l2dvmNwfXVT_BhNkrvo2w)
 
-> ![invert-publish.svg](https://www.prometheanirreverence.com/content/images/2023/12/invert-publish.svg)
+> ![invert-publish.svg](https://raw.githubusercontent.com/lapalap/lapalap.github.io/1c9db871eca0effe2bce774553d4629519dd2379/_data/papers/invert-publish.svg)
  [`Paper`](https://arxiv.org/abs/2311.13594) | [`Code`](https://github.com/lapalap/invert) | [`Twitter Thread`](https://twitter.com/kirill_bykov/status/1729870541908213974?s=61&t=ZALQDltsjZ8dQ6Bq68-aMw)
 
-> ![diversity-publish.svg](https://www.prometheanirreverence.com/content/images/2023/12/diversity-publish.svg)
+> ![diversity-publish.svg](https://raw.githubusercontent.com/lapalap/lapalap.github.io/1c9db871eca0effe2bce774553d4629519dd2379/_data/papers/diversity-publish.svg)
  [`Paper`](https://arxiv.org/abs/2201.10859) | [`Twitter Thread`](https://x.com/dgrinwald93/status/1724429291222360320?s=46&t=_l2dvmNwfXVT_BhNkrvo2w)
 
-> ![fsca-publish.svg](https://www.prometheanirreverence.com/content/images/2023/12/fsca-publish.svg)
+> ![fsca-publish.svg](https://raw.githubusercontent.com/lapalap/lapalap.github.io/1c9db871eca0effe2bce774553d4629519dd2379/_data/papers/fsca-publish.svg)
  [`Paper`](https://link.springer.com/chapter/10.1007/978-3-031-44067-0_28)
 
-> ![dora-publish.svg](https://www.prometheanirreverence.com/content/images/2023/12/dora-publish.svg)
+> ![dora-publish.svg](https://raw.githubusercontent.com/lapalap/lapalap.github.io/1c9db871eca0effe2bce774553d4629519dd2379/_data/papers//dora-publish.svg)
  [`Paper`](https://arxiv.org/abs/2206.04530) | [`Code`](https://github.com/lapalap/dora) | [`Video`](https://youtu.be/k2tgN7YsjN8?si=KqoPsWaCvcfxMh3A) 
 
-> ![watermarks-publish.svg](https://www.prometheanirreverence.com/content/images/2023/12/watermarks-publish.svg)
+> ![watermarks-publish.svg](https://raw.githubusercontent.com/lapalap/lapalap.github.io/1c9db871eca0effe2bce774553d4629519dd2379/_data/papers/watermarks-publish.svg)
  [`Paper`](https://arxiv.org/abs/2303.05498) | [`Code`](https://github.com/lapalap/mark-my-words) | [`Twitter Thread`](https://x.com/kirill_bykov/status/1711320377740210272?s=46&t=_l2dvmNwfXVT_BhNkrvo2w)
 
-> ![noisegrad-publish.svg](https://www.prometheanirreverence.com/content/images/2023/12/noisegrad-publish.svg)
+> ![noisegrad-publish.svg](https://raw.githubusercontent.com/lapalap/lapalap.github.io/1c9db871eca0effe2bce774553d4629519dd2379/_data/papers/noisegrad-publish.svg)
  [`Paper`](https://ojs.aaai.org/index.php/AAAI/article/view/20561) | [`Code`](https://github.com/understandable-machine-intelligence-lab/NoiseGrad) | [`Twitter Thread`](https://x.com/anna_hedstroem/status/1406922210279886849?s=46&t=_l2dvmNwfXVT_BhNkrvo2w) | [`Newspaper Article (DE)`](https://archiv.pressestelle.tu-berlin.de/tui/22feb/#6)
