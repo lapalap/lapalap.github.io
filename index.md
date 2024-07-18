@@ -8,8 +8,7 @@ I am a Machine Learning PhD student at the TU Berlin and ATB Potsdam, working on
 
 # News
 *   18.07.24 🎙️ Chaired the Special Track at **XAI-2024** conference on ["<ins>*Global and Concept-Based Explainability*</ins>"](https://xaiworldconference.com/2024/concept-based-global-explainability/) in Valletta, Malta.
-*   04.06.24 📄 New preprint --- ["<ins>*CoSy: Evaluating Textual Explanations of Neurons*</ins>"](https://arxiv.org/abs/2405.2033)
-*   07.02.24 🎙️ Gave a talk "<ins>Intorduction to Explainable AI: how do we explain Deep Neural Networks</ins>" at [BIFOLD Graduate School](https://www.bifold.berlin/education/graduate-school)
+*   04.06.24 📄 New preprint --- ["<ins>*CoSy: Evaluating Textual Explanations of Neurons*</ins>"](https://arxiv.org/abs/2405.20331)
 *   07.02.24 🎙️ Gave a talk "<ins>Intorduction to Explainable AI: how do we explain Deep Neural Networks</ins>" at [BIFOLD Graduate School](https://www.bifold.berlin/education/graduate-school)
 *   23.01.24 📄 New preprint --- ["<ins>*Manipulating Feature Visualizations with Gradient Slingshots*</ins>"](https://arxiv.org/abs/2401.06122)
 *   16.01.24 🗓️ Our "Concept-Based global Explainability" track was accepted to [XAI-2024](https://xaiworldconference.com/2024/)
@@ -26,11 +25,11 @@ I am a Machine Learning PhD student at the TU Berlin and ATB Potsdam, working on
 *   03.07.23 📄 "<ins>*DORA: Exploring Outlier Representations in Deep Neural Networks*</ins>" accepted at **TMLR**
 *   24.05.23 📝 Published my first blog [On Mechanical Consciousness](https://www.prometheanirreverence.com/on-mechanical-consciousness-us-and-them/)
 *   01.05.23 🎙️ Presenting 2 papers: "<ins>*DORA: Exploring Outlier Representations in Deep Neural Networks*</ins>" and "<ins>*Mark My Words: Dangers of Watermarked Images in ImageNet*</ins>" at **ICLR 2023** at [TrustML-(Un)Limited](https://sites.google.com/view/trustml-unlimited/home?pli=1) workshop in Kigali, Rwanda.
-![icml23.png](https://www.prometheanirreverence.com/content/images/2023/12/icml23.png)
+![icml23.png](https://github.com/lapalap/lapalap.github.io/blob/master/_data/images/icml23.png?raw=true)
 *   28.03.23 📄 2 papers accepted at **ICLR2023** at [TrustML-(Un)Limited](https://sites.google.com/view/trustml-unlimited/home?pli=1) workshop
 *   23.06.22 📚 Participated in the [Weizenbaum BIFOLD Summer School 2022](https://www.bifold.berlin/education/graduate-school/bifold-summer-school-2022)
 *   02.06.22 🎙️ Panel discussion on Fair and Trustworthy AI at **HelmholtzAI2022** conference
-![panel.png](https://www.prometheanirreverence.com/content/images/2023/12/panel.png)
+![panel.png](https://github.com/lapalap/lapalap.github.io/blob/master/_data/images/panel.png?raw=true)
 *   25.02.22 🎙️ Presented "<ins>*NoiseGrad: Enhancing Explanations by Introducing Stochasticity to Model Weights*</ins>" at **AAAi 2022** conference
 *   02.12.21 📄 "<ins>*NoiseGrad: Enhancing Explanations by Introducing Stochasticity to Model Weights*</ins>" acepted at **AAAi 2022** conference
 *   18.10.21 🎙️ Invited lecture on Explainable AI at Saint-Petersburg State University [Graduate School of Management](https://gsom.spbu.ru/en/) ([Video in Russian](https://youtu.be/Mi4PZgzcbUE))
@@ -38,6 +37,9 @@ I am a Machine Learning PhD student at the TU Berlin and ATB Potsdam, working on
 *   01.01.2021 🐣 Start of the PhD
 
 # Research
+> ![cosy-publish.svg](https://raw.githubusercontent.com/lapalap/lapalap.github.io/d86290d0d09812b1850ae6623b970e7de7f23877/_data/papers/cost-publish.svg)
+ [`Paper`](https://arxiv.org/abs/2405.20331) | [`Code`](https://github.com/lkopf/cosy) | [`Twitter Thread`](https://x.com/kirill_bykov/status/1797981371597803851?s=46&t=_l2dvmNwfXVT_BhNkrvo2w)
+
 > ![manipulating-publish.svg](https://raw.githubusercontent.com/lapalap/lapalap.github.io/d86290d0d09812b1850ae6623b970e7de7f23877/_data/papers/manipulating-publish.svg)
  [`Paper`](https://arxiv.org/abs/2401.06122) | [`Code`](https://github.com/dilyabareeva/grad-slingshot) | [`Twitter Thread`](https://x.com/di_lya/status/1749553403313672451?s=46&t=_l2dvmNwfXVT_BhNkrvo2w)
 
