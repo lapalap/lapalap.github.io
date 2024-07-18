@@ -4,7 +4,7 @@ layout: default
 
 # About me
 
-<img src="https://github.com/lapalap/lapalap.github.io/blob/master/_data/images/myphoto.png?raw=true" alt="My Picture" style="float: right; margin-left: 10px; width: 200px;">
+<img src="https://github.com/lapalap/lapalap.github.io/blob/master/_data/images/myphoto.png?raw=true" alt="My Picture" style="float: right; margin-left: 5px; width: 150px;">
 
 
 I am a Machine Learning PhD student at the TU Berlin and ATB Potsdam, working on *Explainable AI* under the supervision of <a href="https://scholar.google.de/citations?user=YwdAiikAAAAJ&hl=en">Marina Höhne</a> and <a href="https://scholar.google.com/citations?user=jplQac8AAAAJ&hl=en">Klaus-Robert Müller</a>. I am working at <a href="https://x.com/umi_lab_ai">Understandable Machine Intelligence lab</a> and I am part of <a href="https://www.bifold.berlin">BIFOLD</a> graduate school. My work is mainly focused on *Global and Mechanistic Interpretability*  – I develop methods that help humans to comprehend what abstractions and concepts Deep Neural Networks learn.
