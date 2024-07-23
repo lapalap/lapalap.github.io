@@ -26,7 +26,7 @@ I am a Machine Learning PhD student at the TU Berlin and ATB Potsdam, working on
 *   26.07.23 🎙️ Presented "<ins>*Finding Spurious Correlations with Function-Semantic Contrast Analysis*</ins>" at [xAI 2023](https://xaiworldconference.com/2023/) in Lisboa, Portugal
 *   05.07.23 🎙️ Invited talk "<ins>*Explainable AI: from local to global*</ins>" at [Max Delbrück Center](https://www.mdc-berlin.de/en)
 *   03.07.23 📄 "<ins>*DORA: Exploring Outlier Representations in Deep Neural Networks*</ins>" accepted at **TMLR**
-*   24.05.23 📝 Published my first blog [On Mechanical Consciousness](https://www.prometheanirreverence.com/on-mechanical-consciousness-us-and-them/)
+*   24.05.23 📝 Published my first blog [On Mechanical Consciousness](https://kirillbykov.substack.com/p/on-mechanical-consciousness)
 *   01.05.23 🎙️ Presenting 2 papers: "<ins>*DORA: Exploring Outlier Representations in Deep Neural Networks*</ins>" and "<ins>*Mark My Words: Dangers of Watermarked Images in ImageNet*</ins>" at **ICLR 2023** at [TrustML-(Un)Limited](https://sites.google.com/view/trustml-unlimited/home?pli=1) workshop in Kigali, Rwanda.
 ![icml23.png](https://github.com/lapalap/lapalap.github.io/blob/master/_data/images/icml23.png?raw=true)
 *   28.03.23 📄 2 papers accepted at **ICLR2023** at [TrustML-(Un)Limited](https://sites.google.com/view/trustml-unlimited/home?pli=1) workshop
