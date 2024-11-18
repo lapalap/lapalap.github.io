@@ -2,3 +2,5 @@ _site
 .sass-cache
 Gemfile.lock
 *.gem
+_data/cv/Cover Letter.pages
+_data/cv/Cover Letter.pdf

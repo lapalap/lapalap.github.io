@@ -12,6 +12,7 @@ I am a Machine Learning PhD student at the TU Berlin and ATB Potsdam, working on
 # News
 *   07.10.24 🎙️ Gave a talk "<ins>Explainable AI: From Local to Global</ins>" at [Potsdam Graduate School's AI for Academia program](https://www.uni-potsdam.de/en/pogs/train/data-science-ai).
 *   26.09.24 📄 ["<ins>*CoSy: Evaluating Textual Explanations of Neurons*</ins>"](https://arxiv.org/abs/2405.20331) was accepted at **NeurIPS 2024** conference.
+*   14.09.24 📩 Became a reviwer for the **Transactions of Machine Learning Research (TMLR)** journal.  
 *   26.07.24 📄 ["<ins>*CoSy: Evaluating Textual Explanations of Neurons*</ins>"](https://arxiv.org/abs/2405.20331) and ["<ins>*Manipulating Feature Visualizations with Gradient Slingshots*</ins>"](https://arxiv.org/abs/2401.06122) were presented at **ICML 2024** Mechanistic Interpretability Workshop.
 *   18.07.24 🎙️ Chaired the Special Track at **XAI-2024** conference on ["<ins>*Global and Concept-Based Explainability*</ins>"](https://xaiworldconference.com/2024/concept-based-global-explainability/) in Valletta, Malta.
 *   10.07.24 📚 Joined the Programm Committee of the 3rd IEEE Conference on Secure and Trustworthy Machine Learning [(**SaTML 2025**)](https://satml.org/).
