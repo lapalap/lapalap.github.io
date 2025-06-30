@@ -49,6 +49,9 @@ I am a Machine Learning PhD student at the TU Berlin and ATB Potsdam, working on
 *   01.01.2021 🐣 Start of the PhD
 
 # Research
+> ![cosy-publish.jpg](https://github.com/lapalap/lapalap.github.io/blob/master/_data/papers/prism-publish.jpg?raw=true)
+ [`Paper`](https://arxiv.org/abs/2506.15538) | [`Code`](https://github.com/lkopf/prism) | [`Twitter Thread`](https://x.com/lkopf_ml/status/1935716619868688735?s=46&t=_l2dvmNwfXVT_BhNkrvo2w)
+
 > ![cosy-publish.jpg](https://github.com/lapalap/lapalap.github.io/blob/master/_data/papers/cosy-publish.jpg?raw=true)
  [`Paper`](https://arxiv.org/abs/2405.20331) | [`Code`](https://github.com/lkopf/cosy) | [`Twitter Thread`](https://x.com/kirill_bykov/status/1797981371597803851?s=46&t=_l2dvmNwfXVT_BhNkrvo2w)
 
