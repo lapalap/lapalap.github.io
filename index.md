@@ -7,7 +7,7 @@ layout: default
 <img src="https://github.com/lapalap/lapalap.github.io/blob/master/_data/images/myphoto.png?raw=true" alt="My Picture" style="float: right; margin-left: 5px; width: 150px;">
 
 
-I am a postdoctoral researcher in the Explainable Machine Learning Group at <a href="https://www.tum.de/">TUM</a> and <a href="https://www.helmholtz-munich.de/">Helmholtz Munich</a>, led by <a href="https://scholar.google.com/citations?user=jQl9RtkAAAAJ&hl=en">Prof. Zeynep Akata</a>. My research spans <em>Explainable AI</em> and <em>Mechanistic Interpretability</em> for computer vision and natural language processing, with a focus on developing principled methods to better understand and improve deep neural networks.
+I am a postdoctoral researcher in the <a href="https://www.eml-munich.de/">Explainable Machine Learning</a>s at <a href="https://www.tum.de/">TUM</a> and <a href="https://www.helmholtz-munich.de/">Helmholtz Munich</a>, led by <a href="https://scholar.google.com/citations?user=jQl9RtkAAAAJ&hl=en">Prof. Zeynep Akata</a>. My research spans <em>Explainable AI</em> and <em>Mechanistic Interpretability</em> for computer vision and natural language processing, with a focus on developing principled methods to better understand and improve deep neural networks.
 
 Before my current position, I completed a Ph.D. in Computer Science (summa cum laude) at TU Berlin under the supervision of <a href="https://scholar.google.de/citations?user=YwdAiikAAAAJ&hl=en">Prof. Marina Höhne</a> and <a href="https://scholar.google.com/citations?user=jplQac8AAAAJ&hl=en">Prof. Klaus-Robert Müller</a>. My thesis, “Explaining representations in Deep Neural Networks,” focused on Explainable AI and the mechanistic interpretability of computer vision models.
 
