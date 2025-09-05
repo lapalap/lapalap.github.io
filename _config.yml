@@ -5,7 +5,7 @@ highlighter:         rouge
 
 
 title: Kirill Bykov
-description: Machine Learning PhD Student
+description: Posdoctoral Machine Learning Researcher
 show_downloads: true
 google_analytics:
 theme: jekyll-theme-minimal
@@ -17,12 +17,12 @@ gems:
 
 # Customise feed settings (uncommenting following two fields to customise feed title and description)
 #title:		     "Kirill Bykov"
-#description:	     "Machine Learning PhD Student"
+#description:	     "Posdoctoral Machine Learning Researcher"
 #twitter:	    "https://twitter.com/kirill_bykov?ref=kirill-bykov.com"
 #scholar:	    "https://scholar.google.com/citations?user=tI39EK8AAAAJ&hl=en"
 #linkedin:	  "https://www.linkedin.com/in/bykovkirill/"
 #substack:	  "https://www.prometheanirreverence.com"
-#email:	  "KBykov@atb-potsdam.de"
+#email:	  "kirill.bykov@tum.de"
 
 # RSS 2.0 can be used instead of Atom by uncommenting following two lines
 #feed:

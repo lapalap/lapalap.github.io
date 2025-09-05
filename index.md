@@ -7,9 +7,14 @@ layout: default
 <img src="https://github.com/lapalap/lapalap.github.io/blob/master/_data/images/myphoto.png?raw=true" alt="My Picture" style="float: right; margin-left: 5px; width: 150px;">
 
 
-I am a Machine Learning PhD student at the TU Berlin and ATB Potsdam, working on *Interpretable ML* under the supervision of <a href="https://scholar.google.de/citations?user=YwdAiikAAAAJ&hl=en">Marina Höhne</a> and <a href="https://scholar.google.com/citations?user=jplQac8AAAAJ&hl=en">Klaus-Robert Müller</a>. I am working at <a href="https://x.com/umi_lab_ai">Understandable Machine Intelligence lab</a> and I am part of <a href="https://www.bifold.berlin">BIFOLD</a> graduate school. My work is mainly focused on *Global and Mechanistic Interpretability*  – I develop methods that help humans to comprehend what abstractions Deep Neural Networks learn and how they use them for the decision-making.
+I am a postdoctoral researcher in the Explainable Machine Learning Group at <a href="https://www.tum.de/">TUM</a> and <a href="https://www.helmholtz-munich.de/">Helmholtz Munich</a>, led by <a href="https://scholar.google.com/citations?user=jQl9RtkAAAAJ&hl=en">Prof. Zeynep Akata</a>. My research spans <em>Explainable AI</em> and <em>Mechanistic Interpretability</em> for computer vision and natural language processing, with a focus on developing principled methods to better understand and improve deep neural networks.
+
+Before my current position, I completed a Ph.D. in Computer Science (summa cum laude) at TU Berlin under the supervision of <a href="https://scholar.google.de/citations?user=YwdAiikAAAAJ&hl=en">Prof. Marina Höhne</a> and <a href="https://scholar.google.com/citations?user=jplQac8AAAAJ&hl=en">Prof. Klaus-Robert Müller</a>. My thesis, “Explaining representations in Deep Neural Networks,” focused on Explainable AI and the mechanistic interpretability of computer vision models.
+
+Prior to my Ph.D., I earned an M.Sc. (cum laude) in Data Science and Engineering from TU Berlin and TU Eindhoven, and a B.Sc. in Applied Mathematics and Computer Science from Saint Petersburg State University.
 
 # News
+*   21.07.25 🎉 Defended PhD thesis! Yay!
 *   18.06.25 📄 New preprint --- ["<ins>*Capturing Polysemanticity with PRISM: A Multi-Concept Feature Description Framework*</ins>"](https://arxiv.org/abs/2506.15538)
 *   16.06.25 🎙️ Gave a talk "<ins>GLOBE: Global Explanation of Deep Neural Networks</ins>" at [Marburg University](https://xai-lab.net/)
 *   11.06.25 🎉 Submitted PhD thesis!
@@ -46,7 +51,7 @@ I am a Machine Learning PhD student at the TU Berlin and ATB Potsdam, working on
 *   02.12.21 📄 "<ins>*NoiseGrad: Enhancing Explanations by Introducing Stochasticity to Model Weights*</ins>" acepted at **AAAi 2022** conference
 *   18.10.21 🎙️ Invited lecture on Explainable AI at Saint-Petersburg State University [Graduate School of Management](https://gsom.spbu.ru/en/) ([Video in Russian](https://youtu.be/Mi4PZgzcbUE))
 *   23.05.21 🎙️ Invited talk on "<ins>*Explaining hidden representations*</ins>" at ODS DataFest 2021 ([Video in Russian](https://youtu.be/ounFVE-kxGs?si=BkpPBDRjy3UrXukE))
-*   01.01.2021 🐣 Start of the PhD
+*   01.01.21 🐣 Start of the PhD
 
 # Research
 > ![cosy-publish.jpg](https://github.com/lapalap/lapalap.github.io/blob/master/_data/papers/prism-publish.jpg?raw=true)
