@@ -14,7 +14,8 @@ Before my current position, I completed a Ph.D. in Computer Science (summa cum l
 Prior to my Ph.D., I earned an M.Sc. (cum laude) in Data Science and Engineering from TU Berlin and TU Eindhoven, and a B.Sc. in Applied Mathematics and Computer Science from Saint Petersburg State University.
 
 # News
-*   21.07.25 🎉 Defended PhD thesis! Yay!
+*   01.08.25 🧑‍🔬 Started Posdoctoral position at <a href="https://www.eml-munich.de/">Explainable Machine Learning</a> group at <a href="https://www.tum.de/">Technical Univarsity of Munich</a>.
+*   21.07.25 🎉 Defended PhD thesis with distinction (summa cum laude)!
 *   18.06.25 📄 New preprint --- ["<ins>*Capturing Polysemanticity with PRISM: A Multi-Concept Feature Description Framework*</ins>"](https://arxiv.org/abs/2506.15538)
 *   16.06.25 🎙️ Gave a talk "<ins>GLOBE: Global Explanation of Deep Neural Networks</ins>" at [Marburg University](https://xai-lab.net/)
 *   11.06.25 🎉 Submitted PhD thesis!
