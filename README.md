@@ -1,17 +1,12 @@
-# My Personal Website
+# Kirill Bykov
 
-This repository contains the code for my personal website, a simple one-page site built with Jekyll and the Minimal theme.
+Source for [kirill-bykov.com](https://kirill-bykov.com), a personal academic website built with Jekyll and GitHub Pages.
 
-## About the Website
+## Local Development
 
-The website includes:
-- My personal information
-- Latest news
-- Information on the latest research
+```bash
+bundle install
+bundle exec jekyll serve
+```
 
-It's designed to be simple, clean, and easy to navigate.
-
-## Built With
-
-- Jekyll
-- Minimal Theme
+The main page is edited in `index.md`; the site shell is in `_layouts/default.html`.

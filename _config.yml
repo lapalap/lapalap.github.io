@@ -1,6 +1,5 @@
 # Site Settings
 
-paginate:            5
 highlighter:         rouge
 
 
@@ -9,11 +8,11 @@ description: Postdoctoral Machine Learning Researcher @ TUM
 show_downloads: true
 google_analytics:
 theme: jekyll-theme-minimal
-plugins:             [jekyll-paginate-v2, jekyll-sitemap, jekyll-feed]
+plugins:             [jekyll-feed, jekyll-seo-tag]
 
 gems:
   - jekyll-feed
-  - jekyll-paginate
+  - jekyll-seo-tag
 
 # Customise feed settings (uncommenting following two fields to customise feed title and description)
 #title:		     "Kirill Bykov"
