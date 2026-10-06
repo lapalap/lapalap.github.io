@@ -1,0 +1,280 @@
+---
+papers:
+  bayesian:
+    title: Explaining Bayesian Neural Networks
+    authors: "<strong>Kirill Bykov</strong>, Marina M.-C. Höhne, Adelaida Creosteanu,
+      Klaus-Robert Müller, Frederick Klauschen, Shinichi Nakajima, Marius Kloft"
+    venue: TMLR
+    year: 2021
+    journal: Transactions on Machine Learning Research
+    url: https://arxiv.org/abs/2108.10346
+    logo: tmlr
+  noisegrad:
+    title: NoiseGrad — Enhancing Explanations by Introducing Stochasticity to Model
+      Weights
+    authors: "<strong>Kirill Bykov</strong>, Anna Hedström, Shinichi Nakajima, Marina
+      M.-C. Höhne"
+    venue: AAAI
+    year: 2022
+    journal: Proceedings of the AAAI Conference on Artificial Intelligence 36 (6),
+      6132-6140
+    url: https://ojs.aaai.org/index.php/AAAI/article/view/20561
+    logo: aaai
+    code: https://github.com/understandable-machine-intelligence-lab/NoiseGrad
+  invert:
+    title: Labeling Neural Representations with Inverse Recognition
+    authors: "<strong>Kirill Bykov</strong>, Laura Kopf, Shinichi Nakajima, Marius
+      Kloft, Marina M.-C. Höhne"
+    venue: NeurIPS
+    year: 2023
+    journal: Advances in Neural Information Processing Systems 36, 24804-24828
+    url: https://arxiv.org/abs/2311.13594
+    logo: neurips
+    code: https://github.com/lapalap/invert
+    featured_title: Inverse Recognition
+    summary: INVERT identifies concept labels by testing which examples a representation
+      distinguishes, without segmentation masks. Alignment scores and statistical
+      significance support scalable discovery and audits of spurious correlations.
+  dora:
+    title: 'DORA: Exploring Outlier Representations in Deep Neural Networks'
+    authors: "<strong>Kirill Bykov</strong>, Mayukh Deb, Dennis Grinwald, Klaus-Robert
+      Müller, Marina M.-C. Höhne"
+    venue: TMLR
+    year: 2023
+    journal: Transactions on Machine Learning Research
+    url: https://arxiv.org/abs/2206.04530
+    logo: tmlr
+    code: https://github.com/lapalap/dora
+  cosy:
+    title: 'CoSy: Evaluating Textual Explanations of Neurons'
+    authors: Laura Kopf, Philine Lou Bommer, Anna Hedström, Sebastian Lapuschkin,
+      Marina M.-C. Höhne, <strong>Kirill Bykov</strong>
+    venue: NeurIPS
+    year: 2024
+    journal: Advances in Neural Information Processing Systems 37
+    url: https://arxiv.org/abs/2405.20331
+    logo: neurips
+    code: https://github.com/lkopf/cosy
+    featured_title: 'CoSy: evaluating feature explanations'
+    summary: CoSy generates synthetic inputs from neuron descriptions and compares
+      their activation responses with a control dataset. Sanity checks and benchmarks
+      test explanations beyond plausible-sounding labels.
+  prism:
+    title: 'Capturing polysemanticity with PRISM: A multi-concept feature description
+      framework'
+    authors: Laura Kopf, Nils Feldhus, <strong>Kirill Bykov</strong>, Philine Lou
+      Bommer, Anna Hedström, Marina M.-C. Höhne, Oliver Eberle
+    venue: NeurIPS
+    year: 2026
+    journal: Advances in Neural Information Processing Systems 38, 82938-82974
+    url: https://arxiv.org/abs/2506.15538
+    logo: neurips
+    code: https://github.com/lkopf/prism
+    featured_title: 'PRISM: describing polysemantic features'
+    summary: PRISM clusters high-activation text examples to describe each concept
+      within a polysemantic feature. Per-concept descriptions improve explanation
+      quality; separate quality and polysemanticity scores make multi-concept behavior
+      measurable.
+  teleconnections:
+    title: 'Deep learning meets teleconnections: Improving S2S predictions for European
+      winter weather'
+    authors: Philine L. Bommer, Marlene Kretschmer, Fiona R. Spuler, <strong>Kirill
+      Bykov</strong>, Marina M.-C. Höhne
+    venue: 'ML: Earth'
+    year: 2025
+    journal: 'Machine Learning: Earth 1 (1), 015002'
+    url: https://arxiv.org/abs/2504.07625
+    logo: ml_earth
+  watermarks:
+    title: 'Mark My Words: Dangers of Watermarked Images in ImageNet'
+    authors: "<strong>Kirill Bykov</strong>, Klaus-Robert Müller, Marina M.-C. Höhne"
+    venue: Springer
+    year: 2024
+    journal: Communications in Computer and Information Science 1947, 426--434
+    url: https://arxiv.org/abs/2303.05498
+    logo: springer_nature
+    code: https://github.com/lapalap/mark-my-words
+  diversity:
+    title: Visualizing the Diversity of Representations Learned by Bayesian Neural
+      Networks
+    authors: Dennis Grinwald, <strong>Kirill Bykov</strong>, Shinichi Nakajima, Marina
+      M.-C. Höhne
+    venue: TMLR
+    year: 2023
+    journal: Transactions on Machine Learning Research
+    url: https://arxiv.org/abs/2201.10859
+    logo: tmlr
+  slingshots:
+    title: Manipulating Feature Visualizations with Gradient Slingshots
+    authors: Alexander Warnecke, Lukas Pirch, <strong>Kirill Bykov</strong>, Marina
+      M.-C. Höhne, Dilyara Bareeva, Konrad Rieck, Klaus-Robert Müller
+    venue: NeurIPS
+    year: 2025
+    journal: Advances in Neural Information Processing Systems 38, 166757--166794
+    url: https://arxiv.org/abs/2401.06122
+    logo: neurips
+    code: https://github.com/dilyabareeva/grad-slingshot
+  fsca:
+    title: Finding Spurious correlations with Function-Semantic Contrast Analysis
+    authors: "<strong>Kirill Bykov</strong>, Laura Kopf, Marina M.-C. Höhne"
+    venue: xAI
+    year: 2023
+    journal: World Conference on Explainable Artificial Intelligence, 549-572
+    url: https://link.springer.com/chapter/10.1007/978-3-031-44067-0_28
+    logo: springer_nature
+  polylogue:
+    title: Do LLMs Experience an Internal Polylogue? Investigating Reasoning through
+      the Lens of Personas
+    authors: Nils A. Herrmann, Leander Girrbach, <strong>Kirill Bykov</strong>, Zeynep
+      Akata
+    venue: arXiv
+    year: 2026
+    journal: arXiv preprint arXiv:2605.09159
+    url: https://arxiv.org/abs/2605.09159
+    logo: arxiv
+    code: https://anonymous.4open.science/r/polylogue
+    featured_title: Internal Polylogue in LLM Reasoning
+    summary: We track persona directions in hidden activations during LLM reasoning.
+      These interpretable signals predict correctness comparably to low-dimensional
+      activation baselines. Paragraph-conditioned steering improves accuracy in three
+      of four tested models and degrades the fourth; robust reasoning-time intervention
+      remains an open question.
+  user-model:
+    title: User Model Extraction via Belief Self-Distillation
+    authors: Ali Holmov, Yiran Huang, <strong>Kirill Bykov</strong>, Zeynep Akata
+    venue: arXiv
+    year: 2026
+    journal: arXiv preprint arXiv:2609.31603
+    url: https://arxiv.org/abs/2609.31603
+    logo: arxiv
+sections:
+- id: research
+  title: Featured research
+  entries:
+  - paper: polylogue
+  - paper: prism
+  - paper: cosy
+  - paper: invert
+- id: experience
+  title: Experience
+  entries:
+  - date: Aug 2025 - Present
+    title: Postdoctoral Researcher
+    organization: Technical University of Munich
+    location: Munich, Germany
+    description: Research in mechanistic interpretability for modern deep networks,
+      with a focus on representations, feature reliability, and explanation methods
+      for vision and language models.
+    logos:
+    - id: tum
+      label: Technical University of Munich
+      url: https://www.tum.de/
+  - date: Jan 2021 - Jun 2025
+    title: Ph.D. Researcher in Machine Learning
+    organization: TU Berlin and ATB Potsdam
+    location: Berlin and Potsdam, Germany
+    description: Research in mechanistic interpretability and explainable AI, developing
+      methods to analyze neural representations, identify learned concepts, detect
+      spurious correlations, and audit anomalous model behavior.
+    logos:
+    - id: tub
+      label: TU Berlin
+      url: https://www.tu.berlin/
+  - date: May 2020 - Jan 2021
+    title: Student Research Assistant
+    organization: Machine Learning Group, TU Berlin
+    location: Berlin, Germany
+    description: Research in explainable AI and Bayesian neural networks, contributing
+      to methods for model explanations and uncertainty-aware analysis of deep networks.
+    logos:
+    - id: tub
+      label: TU Berlin
+      url: https://www.tu.berlin/
+  - date: Dec 2019 - Mar 2020
+    title: Data Science Research Intern
+    organization: TomTom, AI Geospatial Research
+    location: Berlin, Germany
+    description: Research and analytics in geospatial machine learning, developing
+      anomaly detection models for large-scale spatial data.
+    logos:
+    - id: tomtom
+      label: TomTom
+      url: https://www.tomtom.com/
+  - date: Jun 2018 - Apr 2019
+    title: Data Scientist
+    organization: Skyeng
+    location: Remote
+    description: Research and analytics in recruitment and operations, building ML-driven
+      candidate scoring, workload forecasting, process mining, and workflow optimization
+      tools.
+    logos:
+    - id: skyeng
+      label: Skyeng
+      url: https://skyeng.ru/
+  - date: Sep 2015 - Dec 2017
+    title: Data Analyst
+    organization: MegaFon
+    location: Saint Petersburg, Russia
+    description: Analytics in trade marketing and business operations, focusing on
+      sales forecasting, operational reporting, performance monitoring, and process
+      optimization.
+    logos:
+    - id: megafon
+      label: MegaFon
+      url: https://megafon.ru/
+- id: education
+  title: Education
+  entries:
+  - date: 2021 - 2025
+    title: Ph.D. in Machine Learning
+    organization: Technische Universität Berlin
+    location: Berlin, Germany
+    description: 'Advisors: Prof. Marina Höhne and Prof. Klaus-Robert Müller. Thesis:
+      “Explaining Representations in Deep Neural Networks.” Summa cum laude, 1.0.'
+    logos:
+    - id: tub
+      label: TU Berlin
+      url: https://www.tu.berlin/
+  - date: 2018 - 2020
+    title: M.Sc. in Data Science / ICT Innovation
+    organization: TU Berlin and TU Eindhoven
+    location: Berlin, Germany / Eindhoven, the Netherlands
+    description: Double-degree program. EIT Digital Excellence Scholarship. Cum laude,
+      1.3.
+    logos:
+    - id: tue
+      label: TU Eindhoven
+      url: https://www.tue.nl/
+  - date: 2014 - 2018
+    title: B.Sc. in Applied Mathematics and Computer Science
+    organization: Saint Petersburg State University
+    location: Saint Petersburg, Russia
+    description: 'Faculty of Mathematics and Mechanics, Department of Statistical
+      Modelling. Grade: 4.47 / 5.'
+    logos:
+    - id: spbsu
+      label: Saint Petersburg State University
+      url: https://english.spbu.ru/
+  - title: High school
+    organization: Lyceum 239
+    location: Saint Petersburg, Russia
+    logos:
+    - id: lyceum239
+      label: Lyceum 239
+      url: https://239.ru/
+- id: publications
+  title: Publications
+  entries:
+  - paper: user-model
+  - paper: polylogue
+  - paper: prism
+  - paper: slingshots
+  - paper: teleconnections
+  - paper: cosy
+  - paper: watermarks
+  - paper: invert
+  - paper: dora
+  - paper: diversity
+  - paper: fsca
+  - paper: noisegrad
+  - paper: bayesian

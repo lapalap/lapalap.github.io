@@ -1,72 +1,82 @@
 <!doctype html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<html lang="{{ site.lang | default: 'en' }}" data-theme="dark">
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-
-{% seo %}
-
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    <meta name="viewport" content="width=device-width">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-
-<!-- <SCRIPT language=javascript>
-msg = "hehehehehehehehehehehehehehehehehe";
-
-msg = "" + msg;pos = 0;
-function scrollMSG() {
-document.title = msg.substring(pos, msg.length) + msg.substring(0, pos);
-pos++;
-if (pos >  msg.length) pos = 0
-window.setTimeout("scrollMSG()",20);
-}
-scrollMSG();
-    </SCRIPT> -->
-
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h6> {{ site.title | default: site.github.repository_name }}</h6>
-        <h4><p>{{ site.description | default: site.github.project_tagline }}</p></h4>
-          
-        <p><a href="https://www.linkedin.com/in/bykovkirill/">LinkedIn</a></p>
-        <p><a href="https://scholar.google.com/citations?user=tI39EK8AAAAJ&hl=en">Google Scholar</a></p>
-        <p><a href="https://github.com/lapalap/lapalap.github.io/blob/master/_data/cv/Bykov_CV_2026.pdf?raw=true">CV</a></p>
-        <p><a href="https://kirillbykov.substack.com">Substack</a></p>
-        <p><a href="{{ site.github.owner_url }}">GitHub Profile</a></p>
-        <p><a> kirill.bykov(at)tum.de</a></p>
-      </header>
-      <section>
-
-      {{ content }}
-
-      </section>
-      <footer>
-        {% if site.github.is_project_page %}
-        <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
-        {% endif %}
-        <p><small>Hosted on GitHub Pages
-<br>
-	Subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a>
-</small></p>
-      </footer>
-    </div>
-    <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
-
-
-  {% if site.google_analytics %}
-    <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-        ga('create', '{{ site.google_analytics }}', 'auto');
-        ga('send', 'pageview');
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    {% assign page_title = page.title | default: 'Kirill Bykov | Mechanistic Interpretability Researcher' %}
+    {% assign page_description = page.description | default: site.description %}
+    <title>{{ page_title | escape }}</title>
+    <meta name="description" content="{{ page_description | escape }}">
+    <link rel="canonical" href="{{ page.url | replace: 'index.html', '' | absolute_url }}">
+    <meta name="theme-color" content="#111111">
+    <meta name="color-scheme" content="dark light">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Kirill Bykov">
+    <meta property="og:title" content="{{ page_title | escape }}">
+    <meta property="og:description" content="{{ page_description | escape }}">
+    <meta property="og:image" content="{{ '/assets/portrait.webp' | absolute_url }}">
+    <meta property="og:image:width" content="362">
+    <meta property="og:image:height" content="426">
+    <meta property="og:image:alt" content="Portrait of Kirill Bykov">
+    <meta name="twitter:image" content="{{ '/assets/portrait.webp' | absolute_url }}">
+    <meta property="og:url" content="{{ page.url | absolute_url }}">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="{{ page_title | escape }}">
+    <meta name="twitter:description" content="{{ page_description | escape }}">
+    <link rel="icon" type="image/png" href="{{ '/assets/favicon.png' | relative_url }}">
+    <link rel="apple-touch-icon" href="{{ '/assets/favicon.png' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+    <script type="application/ld+json">
+      {"@context":"https://schema.org","@type":"Person","name":"Kirill Bykov","url":{{ site.url | jsonify }},"image":{{ '/assets/portrait.webp' | absolute_url | jsonify }},"jobTitle":"Mechanistic Interpretability Researcher","affiliation":{"@type":"Organization","name":"Technical University of Munich"},"sameAs":["https://github.com/lapalap","https://scholar.google.com/citations?user=tI39EK8AAAAJ&hl=en","https://www.linkedin.com/in/bykovkirill/"]}
     </script>
-  {% endif %}
+  </head>
+  <body id="top">
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div>
+        {% if page.url == '/' %}<h1 id="profile-title"><a href="{{ '/' | relative_url }}#top">Kirill Bykov</a></h1>{% else %}<a class="site-name" href="{{ '/' | relative_url }}#top">Kirill Bykov</a>{% endif %}
+        <p>Mechanistic Interpretability Researcher</p>
+      </div>
+      <nav aria-label="Research and profiles">
+        <a href="{{ '/' | relative_url }}#research">Research</a>
+        <a href="{{ '/assets/cv.pdf' | relative_url }}">CV</a>
+        <a href="https://scholar.google.com/citations?user=tI39EK8AAAAJ&amp;hl=en">Scholar</a>
+        <a href="https://github.com/lapalap">GitHub</a>
+        <a href="https://www.linkedin.com/in/bykovkirill/">LinkedIn</a>
+        <a href="mailto:kirill.bykov@tum.de">Email</a>
+      </nav>
+    </header>
+    <main id="main"  tabindex="-1">
+      {{ content }}
+    </main>
+    <footer class="site-footer">
+      <p>Kirill Bykov</p>
+      <div class="footer-links" aria-label="More profiles">
+        <a href="mailto:kirill.bykov@tum.de">Email</a>
+        <a href="https://www.linkedin.com/in/bykovkirill/">LinkedIn</a>
+        <a href="https://kirillbykov.substack.com">Substack</a>
+        <button id="theme-toggle" type="button" aria-pressed="true">Light mode</button>
+      </div>
+      <p>Hosted on GitHub Pages.</p>
+    </footer>
+    <script>
+      const themeButton = document.getElementById('theme-toggle');
+      themeButton.addEventListener('click', () => {
+        const dark = themeButton.getAttribute('aria-pressed') !== 'true';
+        document.documentElement.dataset.theme = dark ? 'dark' : 'light';
+        document.querySelector('meta[name="theme-color"]').content = dark ? '#111111' : '#ffffff';
+        themeButton.setAttribute('aria-pressed', String(dark));
+        themeButton.textContent = dark ? 'Light mode' : 'Dark mode';
+      });
+    </script>
+    {% if site.google_analytics %}
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics | escape }}"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', {{ site.google_analytics | jsonify }});
+    </script>
+    {% endif %}
   </body>
 </html>
