@@ -3,7 +3,5 @@ description: Researcher studying internal representations, automated interpretab
 url: https://kirill-bykov.com
 baseurl: ""
 lang: en
-kramdown:
-  input: Kramdown
 google_analytics: G-FTLYMY1SPL
 exclude: [Gemfile, Gemfile.lock]

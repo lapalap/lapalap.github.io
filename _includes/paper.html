@@ -1,0 +1,18 @@
+{% assign paper = include.paper %}
+<article class="entry">
+  <div class="entry-meta">{{ paper.venue }}<br><time datetime="{{ paper.year }}">{{ paper.year }}</time></div>
+  <div class="entry-content">
+    <h3><a href="{{ paper.url }}">{{ paper.title }}</a></h3>
+    <p class="authors">{{ paper.authors }}</p>
+    <p class="journal">{{ paper.journal }}</p>
+    <p class="description">{{ paper.summary }}</p>
+    <div class="resource-links">
+      <a href="{{ paper.url }}">Paper<span class="sr-only">: {{ paper.title }}</span></a>
+      {% if paper.code %}<a href="{{ paper.code }}">Code<span class="sr-only">: {{ paper.title }}</span></a>{% endif %}
+      {% for link in paper.links %}<a href="{{ link.url | escape }}">{{ link.label | escape }}<span class="sr-only">: {{ paper.title }}</span></a>{% endfor %}
+    </div>
+  </div>
+  <div class="logos">
+    <a href="{{ paper.url }}" class="logo-link" aria-label="{{ paper.title | escape }} ({{ paper.venue }})"><svg width="64" height="60" aria-hidden="true"><use href="{{ '/assets/logos.svg' | relative_url }}#{{ paper.logo }}"></use></svg></a>
+  </div>
+</article>

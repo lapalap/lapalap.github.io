@@ -6,38 +6,46 @@ title: Kirill Bykov | Mechanistic Interpretability Researcher
   <img class="portrait" src="{{ '/assets/portrait.webp' | relative_url }}" alt="Portrait of Kirill Bykov" width="362" height="426" decoding="async">
   <div class="prose">
     <p>I am a postdoctoral researcher in the <a href="https://www.eml-munich.de/">Explainable Machine Learning</a> group at <a href="https://www.tum.de/">TUM</a> and <a href="https://www.helmholtz-munich.de/">Helmholtz Munich</a>, led by <a href="https://scholar.google.com/citations?user=jQl9RtkAAAAJ&amp;hl=en">Prof. Zeynep Akata</a>. I work on mechanistic interpretability of vision and language models, with a focus on AI safety and alignment. I completed my Ph.D. at TU Berlin (summa cum laude), following an M.Sc. at TU Berlin and TU Eindhoven and a B.Sc. at Saint Petersburg State University.</p>
-    <p>I study how mechanistic understanding can support scalable AI control. Through <a href="https://papers.neurips.cc/paper_files/paper/2023/hash/4e52bbb99690d1e05c7ef7b4c8b3569a-Abstract-Conference.html">INVERT</a>, <a href="https://proceedings.neurips.cc/paper_files/paper/2025/hash/77a404d99d58544293763afb769a16e4-Abstract-Conference.html">PRISM</a>, and <a href="https://arxiv.org/abs/2405.20331">CoSy</a>, I develop methods to identify, evaluate, and causally test internal representations. My current work targets safety-relevant LLM states, with the longer-term goal of turning mechanistic signals into runtime monitoring and intervention tools for autonomous agents and interacting agent populations.</p>
+    <p>I study how mechanistic understanding can support scalable AI control. My current work targets safety-relevant LLM states, with the longer-term goal of turning mechanistic signals into runtime monitoring and intervention tools for autonomous agents and interacting agent populations.</p>
   </div>
 </section>
 
-{% for section in site.data.content.sections %}
-<section id="{{ section.id }}" class="content-section" aria-labelledby="{{ section.id }}-title">
-  <h2 id="{{ section.id }}-title">{{ section.title }}</h2>
+<section id="research" class="content-section" aria-labelledby="research-title">
+  <h2 id="research-title">Featured research</h2>
   <div class="entry-list">
-    {% for item in section.entries %}
-    {% assign paper = site.data.content.papers[item.paper] %}
+    {% for id in site.data.content.featured %}
+    {% assign research_paper = site.data.content.papers[id] %}
+    {% include paper.html paper=research_paper %}
+    {% endfor %}
+  </div>
+  <details class="research-archive">
+    <summary class="research-toggle"><span class="research-symbol" aria-hidden="true"></span> <span>Show all research</span> <span class="research-count">{{ site.data.content.research.size }} papers</span></summary>
+    <div class="entry-list">
+      {% for id in site.data.content.research %}
+      {% unless site.data.content.featured contains id %}
+      {% assign research_paper = site.data.content.papers[id] %}
+      {% include paper.html paper=research_paper %}
+      {% endunless %}
+      {% endfor %}
+    </div>
+  </details>
+</section>
+
+<section id="experience" class="content-section" aria-labelledby="experience-title">
+  <h2 id="experience-title">Relevant Experience</h2>
+  <div class="entry-list">
+    {% for item in site.data.content.experience %}
     <article class="entry">
-      <div class="entry-meta">{% if paper %}{{ paper.venue }}<br><time datetime="{{ paper.year }}">{{ paper.year }}</time>{% else %}{{ item.date }}{% endif %}</div>
+      <div class="entry-meta">{{ item.date }}</div>
       <div class="entry-content">
-        {% if paper %}
-        <h3><a href="{{ paper.url }}">{% if section.id == 'research' %}{{ paper.featured_title }}{% else %}{{ paper.title }}{% endif %}</a></h3>
-        {% if section.id == 'research' %}<p class="description">{{ paper.summary }}</p>{% else %}<p class="authors">{{ paper.authors }}</p><p class="journal">{{ paper.journal }}</p>{% endif %}
-        <div class="resource-links"><a href="{{ paper.url }}">Paper<span class="sr-only">: {{ paper.title }}</span></a>{% if paper.code %}<a href="{{ paper.code }}">Code<span class="sr-only">: {{ paper.title }}</span></a>{% endif %}</div>
-        {% else %}
         <h3>{{ item.title }}</h3>
         <p>{{ item.organization }} · {{ item.location }}</p>
         {% if item.description %}<p class="description">{{ item.description }}</p>{% endif %}
-        {% endif %}
       </div>
       <div class="logos">
-        {% if paper %}
-        <a href="{{ paper.url }}" class="logo-link" aria-label="{{ paper.title | escape }} ({{ paper.venue }})"><svg width="64" height="60" aria-hidden="true"><use href="{{ '/assets/logos.svg' | relative_url }}#{{ paper.logo }}"></use></svg></a>
-        {% else %}
         {% for logo in item.logos %}<a href="{{ logo.url }}" class="logo-link" aria-label="{{ logo.label }}"><svg width="64" height="60" aria-hidden="true"><use href="{{ '/assets/logos.svg' | relative_url }}#{{ logo.id }}"></use></svg></a>{% endfor %}
-        {% endif %}
       </div>
     </article>
     {% endfor %}
   </div>
 </section>
-{% endfor %}

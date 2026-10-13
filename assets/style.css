@@ -1,6 +1,6 @@
 :root {
   color-scheme: dark;
-  font: 14px/22px -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 15px/24px -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
   --paper: #111;
   --ink: #eee;
   --muted: #aaa;
@@ -14,9 +14,9 @@ body { max-width: 900px; margin: 0 auto; padding: 96px 0 64px; color: var(--ink)
 h1, h2, h3, p { margin: 0; }
 h1, h2, h3 { font-size: 1rem; line-height: inherit; font-weight: 600; }
 p, .entry-meta { color: var(--muted); }
-a, button { color: var(--link); text-decoration: none; touch-action: manipulation; transition: color .48s ease-out; }
-a:hover, button:hover, a:focus-visible, button:focus-visible { color: var(--accent); transition-duration: 0s; }
-a:focus-visible, button:focus-visible { outline: 2px solid var(--ink); outline-offset: 4px; }
+a, button, summary { color: var(--link); text-decoration: none; touch-action: manipulation; transition: color .48s ease-out; }
+a:hover, button:hover, summary:hover, a:focus-visible, button:focus-visible, summary:focus-visible { color: var(--accent); transition-duration: 0s; }
+a:focus-visible, button:focus-visible, summary:focus-visible { outline: 2px solid var(--ink); outline-offset: 4px; }
 .prose a { text-decoration: underline; text-decoration-color: var(--muted); text-underline-offset: 3px; }
 .prose a:hover, .prose a:focus-visible { text-decoration-color: currentColor; }
 button { font: inherit; background: none; border: 0; padding: 0; cursor: pointer; }
@@ -24,54 +24,67 @@ img { display: block; max-width: 100%; height: auto; }
 .sr-only, .skip-link:not(:focus) { position: absolute; width: 1px; height: 1px; padding: 0; overflow: hidden; clip-path: inset(100%); white-space: nowrap; }
 .skip-link:focus { position: fixed; top: 16px; left: 24px; padding: 8px 12px; background: var(--paper); outline: 2px solid var(--ink); z-index: 1; }
 .site-header { display: flex; justify-content: space-between; align-items: flex-end; gap: 24px; }
-.site-header h1 { font-weight: 500; }
+.site-header h1 { font-size: 18px; line-height: 24px; font-weight: 600; }
+.site-header p { margin-top: 2px; }
 .site-header h1 a { color: var(--ink); }
 .site-header h1 a:hover, .site-header h1 a:focus-visible { color: var(--accent); }
-.site-name { color: var(--ink); font-weight: 500; }
-.site-header nav, .resource-links, .footer-links { display: flex; flex-wrap: wrap; gap: 0 18px; }
-.site-header nav a, .resource-links a, .footer-links a, .footer-links button { display: inline-flex; align-items: center; min-height: 24px; }
-.intro { display: grid; grid-template-columns: 192px minmax(0, 1fr); gap: 18px; margin-top: 26px; }
+.site-name { color: var(--ink); font-size: 18px; line-height: 24px; font-weight: 600; }
+.site-header nav, .resource-links { display: flex; flex-wrap: wrap; gap: 0 18px; }
+.site-header nav a, .resource-links a, .site-footer button { display: inline-flex; align-items: center; min-height: 24px; }
+.site-header nav { font-size: 14px; line-height: 20px; }
+.intro { display: grid; grid-template-columns: 192px minmax(0, 1fr); gap: 22px; margin-top: 30px; }
 .portrait { width: 192px; height: auto; border-radius: 4px; }
-.prose p + p { margin-top: 11px; }
-.content-section { margin-top: 44px; scroll-margin-top: 28px; }
-.content-section h2 { margin-bottom: 16px; }
-.entry-list { display: grid; gap: 22px; }
+.prose p + p { margin-top: 16px; }
+.content-section { margin-top: 52px; scroll-margin-top: 28px; }
+.content-section h2 { margin-bottom: 20px; font-size: 16px; line-height: 22px; }
+.entry-list { display: grid; gap: 26px; }
 .entry { display: grid; grid-template-columns: 110px minmax(0, 1fr) 64px; align-items: start; }
-.entry-meta { font-variant-numeric: tabular-nums; padding-right: 18px; }
-.entry h3 { font-weight: 500; }
+.entry-meta { font-size: 13px; line-height: 20px; font-variant-numeric: tabular-nums; padding: 2px 18px 0 0; }
+.entry h3 { margin-bottom: 3px; font-size: 15px; line-height: 22px; font-weight: 500; }
 .entry h3 a { color: var(--ink); }
 .entry h3 a:hover, .entry h3 a:focus-visible { color: var(--accent); }
-#research .entry:first-child h3 { font-weight: 600; }
-.description { margin-top: 4px; }
-.resource-links { gap: 0 14px; }
-.resource-links a, .authors, .journal { font-size: 13px; }
+.research-archive { margin-top: 16px; }
+.research-toggle { display: flex; align-items: center; gap: 12px; width: fit-content; min-height: 44px; margin-left: 110px; padding-block: 10px; color: var(--ink); font-size: 14px; line-height: 22px; font-weight: 500; list-style: none; cursor: pointer; }
+.research-toggle::-webkit-details-marker { display: none; }
+.research-count { color: var(--muted); font-size: 13px; font-weight: 400; }
+.research-symbol { position: relative; flex: none; width: 12px; height: 12px; }
+.research-symbol::before, .research-symbol::after { content: ""; position: absolute; top: 50%; left: 0; width: 12px; height: 1px; background: currentColor; transform: translateY(-50%); }
+.research-symbol::after { transform: translateY(-50%) rotate(90deg); transition: transform .18s ease, opacity .18s ease; }
+.research-archive[open] .research-symbol::after { transform: translateY(-50%) rotate(0deg); opacity: 0; }
+.research-archive > .entry-list { margin-top: 22px; }
+.research-archive[open] > .entry-list { animation: research-appear .25s ease-out; }
+@keyframes research-appear { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: translateY(0); } }
+.description { margin-top: 5px; }
+.resource-links { margin-top: 4px; gap: 0 14px; }
+.resource-links a, .authors, .journal { font-size: 13px; line-height: 20px; }
 .authors strong { font-weight: 500; color: var(--ink); }
 .logos { display: flex; flex-direction: column; align-items: flex-end; }
 .logo-link { display: block; width: 64px; height: 60px; }
 .logo-link svg { display: block; width: 64px; height: 60px; }
-.site-footer { margin-top: 80px; color: var(--muted); }
-.footer-links { margin: 8px 0; }
+.site-footer { display: flex; align-items: center; justify-content: space-between; gap: 20px; margin-top: 52px; color: var(--muted); font-size: 13px; line-height: 20px; }
+.site-footer a { text-decoration: underline; text-underline-offset: 3px; }
 .error-page { margin-top: 44px; }
 .error-page h1 { margin-bottom: 16px; }
 @media (max-width: 980px) { body { margin-inline: 40px; } }
 @media (max-width: 680px) {
-  body { margin: 0; padding: 48px 24px; font-size: 15px; line-height: 23px; }
+  body { margin: 0; padding: 48px 24px; }
   .site-header { display: block; }
-  .site-header nav { margin-top: 12px; gap: 0 12px; }
-  .site-header nav a, .resource-links a, .footer-links a, .footer-links button { min-height: 44px; }
-  .intro { grid-template-columns: minmax(0, 1fr); gap: 18px; margin-top: 22px; }
+  .site-header nav { margin-top: 14px; gap: 0 12px; }
+  .site-header nav a, .resource-links a, .site-footer button { min-height: 44px; }
+  .intro { grid-template-columns: minmax(0, 1fr); gap: 20px; margin-top: 24px; }
   .portrait { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; object-position: center top; }
-  .content-section { margin-top: 36px; }
+  .content-section { margin-top: 44px; }
+  .research-toggle { margin-left: 0; }
   .entry { grid-template-columns: minmax(0, 1fr) 48px; row-gap: 2px; }
-  .entry-meta { grid-column: 1; grid-row: 1; font-size: 13px; }
+  .entry-meta { grid-column: 1; grid-row: 1; padding-top: 0; }
   .entry-meta br { display: none; }
   .entry-meta time::before { content: " "; }
   .entry-content { grid-column: 1; grid-row: 2; }
   .logos { grid-column: 2; grid-row: 1 / 3; }
   .logo-link, .logo-link svg { width: 48px; height: 48px; }
-  .entry-list { gap: 24px; }
-  .site-footer { margin-top: 56px; }
+  .entry-list { gap: 28px; }
+  .site-footer { margin-top: 36px; }
 }
-@media (prefers-reduced-motion: reduce) { a, button { transition: none; } }
+@media (prefers-reduced-motion: reduce) { a, button, summary, .research-symbol::after { transition: none; } .research-archive[open] > .entry-list { animation: none; } }
 @media (prefers-contrast: more) { :root { --muted: var(--ink); --link: var(--ink); } }
 @media print { :root, :root[data-theme] { color-scheme: light; --paper: #fff; --ink: #151515; --muted: #6f6f6f; --link: #737373; } body { max-width: none; margin: 0; padding: 0; } .skip-link, #theme-toggle { display: none; } .entry { break-inside: avoid; } }

@@ -9,6 +9,9 @@ papers:
     journal: Transactions on Machine Learning Research
     url: https://arxiv.org/abs/2108.10346
     logo: tmlr
+    summary: A distribution of explanations reveals more than a single attribution map.
+      We extend attribution methods to Bayesian neural networks to study uncertainty
+      and variation in the evidence behind a prediction.
   noisegrad:
     title: NoiseGrad — Enhancing Explanations by Introducing Stochasticity to Model
       Weights
@@ -21,6 +24,14 @@ papers:
     url: https://ojs.aaai.org/index.php/AAAI/article/view/20561
     logo: aaai
     code: https://github.com/understandable-machine-intelligence-lab/NoiseGrad
+    summary: Adding noise to model weights can improve the explanations we extract.
+      NoiseGrad uses this idea to enhance both local attribution maps and global
+      feature visualizations with a simple, method-agnostic procedure.
+    links:
+    - label: Twitter thread
+      url: https://x.com/anna_hedstroem/status/1406922210279886849
+    - label: Article
+      url: https://www.bifold.berlin/news-events/news/view/news-detail/shining-a-light-into-the-black-box-of-ai-systems
   invert:
     title: Labeling Neural Representations with Inverse Recognition
     authors: "<strong>Kirill Bykov</strong>, Laura Kopf, Shinichi Nakajima, Marius
@@ -31,10 +42,12 @@ papers:
     url: https://arxiv.org/abs/2311.13594
     logo: neurips
     code: https://github.com/lapalap/invert
-    featured_title: Inverse Recognition
-    summary: INVERT identifies concept labels by testing which examples a representation
-      distinguishes, without segmentation masks. Alignment scores and statistical
-      significance support scalable discovery and audits of spurious correlations.
+    summary: INVERT connects internal representations with interpretable concepts
+      without requiring segmentation masks. The method makes concept discovery scalable
+      while measuring conceptual alignment and statistical significance.
+    links:
+    - label: Twitter thread
+      url: https://twitter.com/kirill_bykov/status/1729870541908213974
   dora:
     title: 'DORA: Exploring Outlier Representations in Deep Neural Networks'
     authors: "<strong>Kirill Bykov</strong>, Mayukh Deb, Dennis Grinwald, Klaus-Robert
@@ -45,6 +58,12 @@ papers:
     url: https://arxiv.org/abs/2206.04530
     logo: tmlr
     code: https://github.com/lapalap/dora
+    summary: Unusual representations can point to hidden artifacts in a model.
+      With DORA, we find these outliers without a reference dataset and show how
+      they expose spurious features in vision models.
+    links:
+    - label: Video
+      url: https://youtu.be/k2tgN7YsjN8
   cosy:
     title: 'CoSy: Evaluating Textual Explanations of Neurons'
     authors: Laura Kopf, Philine Lou Bommer, Anna Hedström, Sebastian Lapuschkin,
@@ -55,26 +74,29 @@ papers:
     url: https://arxiv.org/abs/2405.20331
     logo: neurips
     code: https://github.com/lkopf/cosy
-    featured_title: 'CoSy: evaluating feature explanations'
-    summary: CoSy generates synthetic inputs from neuron descriptions and compares
-      their activation responses with a control dataset. Sanity checks and benchmarks
-      test explanations beyond plausible-sounding labels.
+    summary: CoSy tests whether a neuron’s textual explanation matches its behavior.
+      We generate examples of the described concepts and use the neuron’s activation
+      responses to evaluate explanation quality.
+    links:
+    - label: Twitter thread
+      url: https://x.com/kirill_bykov/status/1797981371597803851
   prism:
     title: 'Capturing polysemanticity with PRISM: A multi-concept feature description
       framework'
     authors: Laura Kopf, Nils Feldhus, <strong>Kirill Bykov</strong>, Philine Lou
       Bommer, Anna Hedström, Marina M.-C. Höhne, Oliver Eberle
     venue: NeurIPS
-    year: 2026
+    year: 2025
     journal: Advances in Neural Information Processing Systems 38, 82938-82974
     url: https://arxiv.org/abs/2506.15538
     logo: neurips
     code: https://github.com/lkopf/prism
-    featured_title: 'PRISM: describing polysemantic features'
-    summary: PRISM clusters high-activation text examples to describe each concept
-      within a polysemantic feature. Per-concept descriptions improve explanation
-      quality; separate quality and polysemanticity scores make multi-concept behavior
-      measurable.
+    summary: PRISM captures the multiple concepts encoded by LLM features rather
+      than compressing them into a single explanation. We evaluate these multi-concept
+      descriptions to make explanation quality and polysemanticity measurable.
+    links:
+    - label: Twitter thread
+      url: https://x.com/lkopf_ml/status/1935716619868688735
   teleconnections:
     title: 'Deep learning meets teleconnections: Improving S2S predictions for European
       winter weather'
@@ -85,6 +107,10 @@ papers:
     journal: 'Machine Learning: Earth 1 (1), 015002'
     url: https://arxiv.org/abs/2504.07625
     logo: ml_earth
+    summary: Climate teleconnections provide useful structure for subseasonal European
+      weather forecasts. We incorporate these remote atmospheric signals into deep
+      learning models to improve predictions and examine the physical drivers of
+      weather regimes.
   watermarks:
     title: 'Mark My Words: Dangers of Watermarked Images in ImageNet'
     authors: "<strong>Kirill Bykov</strong>, Klaus-Robert Müller, Marina M.-C. Höhne"
@@ -94,6 +120,12 @@ papers:
     url: https://arxiv.org/abs/2303.05498
     logo: springer_nature
     code: https://github.com/lapalap/mark-my-words
+    summary: ImageNet models can rely on watermarks as shortcuts across multiple
+      classes. We locate the affected representations and show how targeted changes
+      can reduce reliance on these misleading cues.
+    links:
+    - label: Twitter thread
+      url: https://x.com/kirill_bykov/status/1711320377740210272
   diversity:
     title: Visualizing the Diversity of Representations Learned by Bayesian Neural
       Networks
@@ -104,6 +136,9 @@ papers:
     journal: Transactions on Machine Learning Research
     url: https://arxiv.org/abs/2201.10859
     logo: tmlr
+    summary: Bayesian neural networks learn different representations across posterior
+      samples. We visualize and measure this diversity to study its relationship
+      with predictive uncertainty.
   slingshots:
     title: Manipulating Feature Visualizations with Gradient Slingshots
     authors: Alexander Warnecke, Lukas Pirch, <strong>Kirill Bykov</strong>, Marina
@@ -114,6 +149,12 @@ papers:
     url: https://arxiv.org/abs/2401.06122
     logo: neurips
     code: https://github.com/dilyabareeva/grad-slingshot
+    summary: Feature visualizations can be manipulated without substantially changing
+      model performance. We demonstrate this vulnerability with Gradient Slingshots
+      and evaluate a defense for more reliable model auditing.
+    links:
+    - label: Twitter thread
+      url: https://x.com/di_lya/status/1749553403313672451
   fsca:
     title: Finding Spurious correlations with Function-Semantic Contrast Analysis
     authors: "<strong>Kirill Bykov</strong>, Laura Kopf, Marina M.-C. Höhne"
@@ -122,6 +163,9 @@ papers:
     journal: World Conference on Explainable Artificial Intelligence, 549-572
     url: https://link.springer.com/chapter/10.1007/978-3-031-44067-0_28
     logo: springer_nature
+    summary: Comparing functional and semantic relationships can uncover hidden
+      shortcuts. Our Function-Semantic Contrast Analysis uses this contrast to support
+      scalable bias discovery with less manual inspection.
   polylogue:
     title: Do LLMs Experience an Internal Polylogue? Investigating Reasoning through
       the Lens of Personas
@@ -133,12 +177,9 @@ papers:
     url: https://arxiv.org/abs/2605.09159
     logo: arxiv
     code: https://anonymous.4open.science/r/polylogue
-    featured_title: Internal Polylogue in LLM Reasoning
-    summary: We track persona directions in hidden activations during LLM reasoning.
-      These interpretable signals predict correctness comparably to low-dimensional
-      activation baselines. Paragraph-conditioned steering improves accuracy in three
-      of four tested models and degrades the fourth; robust reasoning-time intervention
-      remains an open question.
+    summary: We trace LLM reasoning through persona directions, using these
+      interpretable signals to predict answer correctness and explore interventions
+      during generation.
   user-model:
     title: User Model Extraction via Belief Self-Distillation
     authors: Ali Holmov, Yiran Huang, <strong>Kirill Bykov</strong>, Zeynep Akata
@@ -147,134 +188,76 @@ papers:
     journal: arXiv preprint arXiv:2609.31603
     url: https://arxiv.org/abs/2609.31603
     logo: arxiv
-sections:
-- id: research
-  title: Featured research
-  entries:
-  - paper: polylogue
-  - paper: prism
-  - paper: cosy
-  - paper: invert
-- id: experience
-  title: Experience
-  entries:
-  - date: Aug 2025 - Present
-    title: Postdoctoral Researcher
-    organization: Technical University of Munich
-    location: Munich, Germany
-    description: Research in mechanistic interpretability for modern deep networks,
-      with a focus on representations, feature reliability, and explanation methods
-      for vision and language models.
-    logos:
-    - id: tum
-      label: Technical University of Munich
-      url: https://www.tum.de/
-  - date: Jan 2021 - Jun 2025
-    title: Ph.D. Researcher in Machine Learning
-    organization: TU Berlin and ATB Potsdam
-    location: Berlin and Potsdam, Germany
-    description: Research in mechanistic interpretability and explainable AI, developing
-      methods to analyze neural representations, identify learned concepts, detect
-      spurious correlations, and audit anomalous model behavior.
-    logos:
-    - id: tub
-      label: TU Berlin
-      url: https://www.tu.berlin/
-  - date: May 2020 - Jan 2021
-    title: Student Research Assistant
-    organization: Machine Learning Group, TU Berlin
-    location: Berlin, Germany
-    description: Research in explainable AI and Bayesian neural networks, contributing
-      to methods for model explanations and uncertainty-aware analysis of deep networks.
-    logos:
-    - id: tub
-      label: TU Berlin
-      url: https://www.tu.berlin/
-  - date: Dec 2019 - Mar 2020
-    title: Data Science Research Intern
-    organization: TomTom, AI Geospatial Research
-    location: Berlin, Germany
-    description: Research and analytics in geospatial machine learning, developing
-      anomaly detection models for large-scale spatial data.
-    logos:
-    - id: tomtom
-      label: TomTom
-      url: https://www.tomtom.com/
-  - date: Jun 2018 - Apr 2019
-    title: Data Scientist
-    organization: Skyeng
-    location: Remote
-    description: Research and analytics in recruitment and operations, building ML-driven
-      candidate scoring, workload forecasting, process mining, and workflow optimization
-      tools.
-    logos:
-    - id: skyeng
-      label: Skyeng
-      url: https://skyeng.ru/
-  - date: Sep 2015 - Dec 2017
-    title: Data Analyst
-    organization: MegaFon
-    location: Saint Petersburg, Russia
-    description: Analytics in trade marketing and business operations, focusing on
-      sales forecasting, operational reporting, performance monitoring, and process
-      optimization.
-    logos:
-    - id: megafon
-      label: MegaFon
-      url: https://megafon.ru/
-- id: education
-  title: Education
-  entries:
-  - date: 2021 - 2025
-    title: Ph.D. in Machine Learning
-    organization: Technische Universität Berlin
-    location: Berlin, Germany
-    description: 'Advisors: Prof. Marina Höhne and Prof. Klaus-Robert Müller. Thesis:
-      “Explaining Representations in Deep Neural Networks.” Summa cum laude, 1.0.'
-    logos:
-    - id: tub
-      label: TU Berlin
-      url: https://www.tu.berlin/
-  - date: 2018 - 2020
-    title: M.Sc. in Data Science / ICT Innovation
-    organization: TU Berlin and TU Eindhoven
-    location: Berlin, Germany / Eindhoven, the Netherlands
-    description: Double-degree program. EIT Digital Excellence Scholarship. Cum laude,
-      1.3.
-    logos:
-    - id: tue
-      label: TU Eindhoven
-      url: https://www.tue.nl/
-  - date: 2014 - 2018
-    title: B.Sc. in Applied Mathematics and Computer Science
-    organization: Saint Petersburg State University
-    location: Saint Petersburg, Russia
-    description: 'Faculty of Mathematics and Mechanics, Department of Statistical
-      Modelling. Grade: 4.47 / 5.'
-    logos:
-    - id: spbsu
-      label: Saint Petersburg State University
-      url: https://english.spbu.ru/
-  - title: High school
-    organization: Lyceum 239
-    location: Saint Petersburg, Russia
-    logos:
-    - id: lyceum239
-      label: Lyceum 239
-      url: https://239.ru/
-- id: publications
-  title: Publications
-  entries:
-  - paper: user-model
-  - paper: polylogue
-  - paper: prism
-  - paper: slingshots
-  - paper: teleconnections
-  - paper: cosy
-  - paper: watermarks
-  - paper: invert
-  - paper: dora
-  - paper: diversity
-  - paper: fsca
-  - paper: noisegrad
-  - paper: bayesian
+    summary: LLMs form a picture of the users they interact with. We propose Belief
+      Self-Distillation, an approach for extracting and causally editing these internal
+      user models. We show that changing inferred user intent alters refusal, even
+      when the request stays fixed.
+    code: https://github.com/holmov1/bsd-user-models
+featured:
+- user-model
+- polylogue
+- prism
+research:
+- user-model
+- polylogue
+- prism
+- slingshots
+- teleconnections
+- cosy
+- watermarks
+- invert
+- dora
+- diversity
+- fsca
+- noisegrad
+- bayesian
+experience:
+- date: Aug 2025 - Present
+  title: Postdoctoral Researcher
+  organization: Technical University of Munich
+  location: Munich, Germany
+  description: Research in mechanistic interpretability for modern deep networks,
+    with a focus on representations, feature reliability, and explanation methods
+    for vision and language models.
+  logos:
+  - id: tum
+    label: Technical University of Munich
+    url: https://www.tum.de/
+- date: 2021 - 2025
+  title: Ph.D. in Machine Learning
+  organization: Technische Universität Berlin
+  location: Berlin, Germany
+  description: 'Advisors: Prof. Marina Höhne and Prof. Klaus-Robert Müller. Thesis:
+    “Explaining Representations in Deep Neural Networks.” Summa cum laude, 1.0.'
+  logos:
+  - id: tub
+    label: TU Berlin
+    url: https://www.tu.berlin/
+- date: 2018 - 2020
+  title: M.Sc. in Data Science / ICT Innovation
+  organization: TU Berlin and TU Eindhoven
+  location: Berlin, Germany / Eindhoven, the Netherlands
+  description: Double-degree program. EIT Digital Excellence Scholarship. Cum laude,
+    1.3.
+  logos:
+  - id: tue
+    label: TU Eindhoven
+    url: https://www.tue.nl/
+- date: 2014 - 2018
+  title: B.Sc. in Applied Mathematics and Computer Science
+  organization: Saint Petersburg State University
+  location: Saint Petersburg, Russia
+  description: 'Faculty of Mathematics and Mechanics, Department of Statistical Modelling.
+    Grade: 4.47 / 5.'
+  logos:
+  - id: spbsu
+    label: Saint Petersburg State University
+    url: https://english.spbu.ru/
+- title: High school
+  organization: Lyceum 239
+  location: Saint Petersburg, Russia
+  logos:
+  - id: lyceum239
+    label: Lyceum 239
+    url: https://239.ru/
+  date: 2009 - 2014
